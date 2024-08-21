@@ -1,0 +1,21 @@
+:root{
+    --corPrimaria: #4222d7;
+    --corSecudaria: #311ab2;
+    --corBranca: #fff; 
+    --corFundoEscuro: #000044;
+    --corAzulClaro: #21118d;
+    --corAzulEscuro: #100969;
+}
+
+:root{
+    --fontePrimaria: 'Ubuntu', sans-serif;
+    --fonteSecudaria: 'Roboto', sans-serif;
+    --fonteGigante: 4.5rem;
+    --fonteExtraGrande: 3rem;
+    --fonteGrande: 2.4rem;
+    --fonteNormal: 1.6rem;
+}
+
+:root{
+    --mobilePadding: 30px;
+}
