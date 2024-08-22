@@ -11,12 +11,12 @@
 .home .img-home{
     flex: 0 0 50%;
     max-width: 50%;
-    padding: 0 15px;
+    padding: 0 25px;
 }
 
 .home .img-home .img-box{
-    max-width: 450px;
-    height: 450px;
+    max-width: 350px;
+    height: 350px;
     margin: auto;
     border-radius: 50%;
 }
@@ -47,8 +47,7 @@
     margin-bottom: 30px;
 }
 
-
-@media(max-width: 1280px){
+@media(max-width: 980px){
     .home .text-home,
     .home .img-home{
         flex: 0 0 100%;
