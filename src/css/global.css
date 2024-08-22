@@ -32,3 +32,10 @@ body{
 .align-itens-center{
     align-items: center;
 }
+
+@media(max-width: 380px){
+    body{
+        background: url(../img/bg-mobile.svg) no-repeat;
+        background-color: var(--corFundoEscuro);
+    }
+}
