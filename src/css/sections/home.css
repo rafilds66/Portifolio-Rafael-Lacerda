@@ -16,7 +16,7 @@
 
 .home .img-home .img-box{
     max-width: 350px;
-    height: 350px;
+    max-height: 350px;
     margin: auto;
     border-radius: 50%;
 }
