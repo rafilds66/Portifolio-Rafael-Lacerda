@@ -1,6 +1,6 @@
 .header{
     padding: 30px 15px;
-    background-color: red;
+    /* background-color: red; */
 }
 
 .header .logo{
@@ -13,18 +13,17 @@
     text-align: center;
     line-height: 55px;
     text-decoration: underline;
-    color: var(--corBranca);
+    /* color: var(--corBranca); */
     transition: 0.3s;
 }
 
 .header a:hover .logo{
-    color: var(--corPrimaria);
+    color: var(--corAzulClaro);
     border: 2px solid var(--corPrimaria);
 }
 
 .header nav ul{
     display: flex;
-    justify-content: space-between;
 }
 
 .header nav li a{
