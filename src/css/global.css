@@ -11,7 +11,8 @@ html{
 body{
     font-family: var(--fontePrimaria);
     font-size: var(--fonteNormal);
-    /* background: url(../img/bg-desktop.svg) no-repeat; */
+    background: url(../img/bg-desktop.svg);
+    background-size: cover;
     background-color: var(--corFundoEscuro);
 }
 
@@ -60,9 +61,9 @@ body{
     box-shadow:  inset 3px 3px 3px #222327, inset -3px -3px 3px #454545;
 }
 
-/* .section{
-    padding: 7rem 0 7rem;
-} */
+.section{
+    padding: 3rem 0 3rem;
+}
 
 .section-title{
     text-align: center;
@@ -89,9 +90,9 @@ body{
     background-color: var(--corSecundaria);
 }
 
-/* @media(max-width: 380px){
+@media(max-width: 380px){
     body{
-        background: url(../img/bg-mobile.svg) no-repeat;
+        background: url(../img/bg-mobile.svg);
         background-color: var(--corFundoEscuro);
     }
-} */
+}
