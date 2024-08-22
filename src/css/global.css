@@ -11,7 +11,7 @@ html{
 body{
     font-family: var(--fontePrimaria);
     font-size: var(--fonteNormal);
-    background: url(../img/bg-desktop.svg);
+    background: url(../img/bg-desktop.svg) no-repeat;
     background-color: var(--corFundoEscuro);
 }
 
