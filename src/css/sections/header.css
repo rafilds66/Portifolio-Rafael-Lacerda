@@ -115,6 +115,8 @@
 
     .header nav input:checked~ul {
         display: block;
+        /* background-color: var(--corPrimaria);
+        border-radius: 10px; */
     }
 
     .header nav {
