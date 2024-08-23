@@ -19,6 +19,7 @@
     -webkit-transition: all 0.3s ease;
 }
 
+
 .habilidades .container-habilidades .habilidade h3{
     color: var(--corPrimaria);
     font-size: var(--fonteExtraGrande);
