@@ -111,10 +111,10 @@ body{
     background: transparent;
 }
 
-@media(max-width: 380px){
+/* @media(max-width: 380px){
     body{
         background: url(../img/3409297.jpg);
         background-size: cover;
         background-color: var(--corFundoEscuro);
     }
-}
+} */
