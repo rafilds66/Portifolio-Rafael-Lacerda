@@ -97,13 +97,13 @@ body{
     background-color: var(--corSecundaria);
 }
 
-.card{
+/* .card{
     display: none;
 }
 
 .card.card-ativo{
     display: block;
-}
+} */
 
 .botao{
     border: none;
