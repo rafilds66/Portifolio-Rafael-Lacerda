@@ -11,8 +11,8 @@ html{
 body{
     font-family: var(--fontePrimaria);
     font-size: var(--fonteNormal);
-    /* background: url(../img/bg-desktop.svg);
-    background-size: cover; */
+    background: url(../img/bg-desktop.svg);
+    background-size: cover;
     background-color: var(--corFundoEscuro);
 }
 
@@ -104,9 +104,9 @@ body{
     background: transparent;
 }
 
-/* @media(max-width: 380px){
+@media(max-width: 380px){
     body{
         background: url(../img/bg-mobile.svg);
         background-color: var(--corFundoEscuro);
     }
-} */
+}
