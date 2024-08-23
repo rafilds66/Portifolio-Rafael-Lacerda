@@ -114,8 +114,8 @@
 
     .header nav input:checked~ul {
         display: block;
-        /* background-color: var(--corPrimaria);
-        border-radius: 10px; */
+       /* background-color: var(--corPrimaria);
+          border-radius: 10px; */
     }
 
     .header nav {
@@ -140,7 +140,7 @@
 
 @media(max-width: 425px){
     .header .botao{
-        font-size: 1rem;
+        font-size: 1.6rem;
         flex-wrap: nowrap;
     }
 }
