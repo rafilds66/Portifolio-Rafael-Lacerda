@@ -10,6 +10,12 @@
     padding: 40px 20px;
 }
 
+.habilidades .container-habilidades .habilidade p:hover,
+.habilidades .container-habilidades .habilidade h3:hover,
+.habilidades .container-habilidades .habilidade .logo i:hover{
+    color: var(--corPrimaria);
+}
+
 .habilidades .container-habilidades .habilidade p,
 .habilidades .container-habilidades .habilidade h3,
 .habilidades .container-habilidades .habilidade .logo i{
@@ -19,9 +25,7 @@
     -webkit-transition: all 0.3s ease;
 }
 
-
 .habilidades .container-habilidades .habilidade h3{
-    color: var(--corPrimaria);
     font-size: var(--fonteExtraGrande);
     font-weight: 500;
     margin: 20px 0;
