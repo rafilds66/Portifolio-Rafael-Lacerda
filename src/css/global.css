@@ -78,7 +78,7 @@ body{
     text-transform: uppercase;
 }
 
-.botao{
+.botoes{
     font-size: var(--fonteGrande);
     padding: 10px 20px;
     border-radius: 20px;
@@ -86,8 +86,22 @@ body{
     background-color: var(--corPrimaria);
 }
 
-.botao:hover{
+.botoes:hover{
     background-color: var(--corSecundaria);
+}
+
+.card{
+    display: none;
+}
+
+.card.card-ativo{
+    display: block;
+}
+
+.botao{
+    border: none;
+    text-decoration: none;
+    background: transparent;
 }
 
 /* @media(max-width: 380px){

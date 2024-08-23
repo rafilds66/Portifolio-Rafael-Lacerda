@@ -37,16 +37,19 @@
                         </div>
                     </label>
                     <ul>
-                        <li><a href="#sobre-mim">Sobre</a></li>
-                        <li><a href="#habilidades">Habilidades</a></li>
-                        <li><a href="#projetos">Meus Projetos</a></li>
+                        <button class="botao ativo">Sobre mim</button>
+                        <button class="botao ativo">Habilidades</button>
+                        <button class="botao ativo">Meus Projetos</button>
+                        <!-- <li><a href="#sobre-mim" class="botoes-carrossel">Sobre Mim</a></li>
+                        <li><a href="#habilidades" class="botoes-carrossel">Habilidades</a></li>
+                        <li><a href="#projetos" class="botoes-carrossel">Meus Projetos</a></li> -->
                     </ul>
                 </nav>
             </div>
         </div>
     </header>
 
-    <section class="home">
+    <section class="home card card-ativo">
         <div class="container">
             <div class="row full-screen align-itens-center justify-content-between">
                 <div class="text-home">
@@ -79,7 +82,7 @@
         </div>
     </section>
 
-    <section class="sobre-mim section" id="sobre-mim">
+    <section class="sobre-mim section card" id="sobre-mim">
         <div class="container">
             <div class="row">
                 <div class="section-title">
@@ -117,7 +120,7 @@
         </div>
     </section>
 
-    <section class="habilidades section" id="habilidades">
+    <section class="habilidades section card" id="habilidades">
         <div class="container">
             <div class="row">
                 <div class="section-title">
@@ -179,7 +182,7 @@
         </div>
     </section>
 
-    <section class="projetos" id="projetos">
+    <section class="projetos card" id="projetos">
         <div class="container">
             <div class="row">
                 <div class="section-title">
@@ -270,5 +273,7 @@
             </div>
         </div>
     </section>
+
+    <script src="./src/js/index.js"></script>
 </body>
 </html>

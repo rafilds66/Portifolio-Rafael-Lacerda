@@ -24,21 +24,20 @@
     display: flex;
 }
 
-.header nav li a {
+.header .botao{
     text-transform: capitalize;
-    font-size: 2rem;
+    font-size: var(--fonteGrande);
     font-weight: 500;
     padding: 10px 20px;
-    transition: 0.3s;
     border-radius: 50px;
+    transition: 0.3s;
     letter-spacing: 1px;
     user-select: none;
-
+    font-family: var(--fontePrimaria);
 }
 
-.header nav ul li a:hover {
+.header .botao:hover{
     background-color: var(--corPrimaria);
-    color: var(--corBranca);
 }
 
 .header .menu {
@@ -136,5 +135,12 @@
         text-align: center;
         padding: 20px;
         display: block;
+    }
+}
+
+@media(max-width: 425px){
+    .header .botao{
+        font-size: 1rem;
+        flex-wrap: nowrap;
     }
 }

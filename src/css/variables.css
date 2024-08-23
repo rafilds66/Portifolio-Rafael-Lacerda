@@ -1,11 +1,11 @@
 :root{
-    --corPrimaria: #4222d7;
-    --corSecudaria: #311ab2;
-    --corBranca: #fff; 
-    --corFundoEscuro: #0d1e1e;
+    --corPrimaria: #4f4f4f;
+    --corSecudaria: #676767;
+    --corBranca: #fff;
+    --corFundoEscuro: #1d1d1d;
     --corAzulClaro: #3e2dac;
-    --corAzulEscuro: #797979;
-    --corCinzaClaro: #275b5b;
+    --corAzulEscuro: #363636;
+    --corCinzaClaro: #808080;
 
 }
 

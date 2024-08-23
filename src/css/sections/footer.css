@@ -1,8 +1,7 @@
 .footer{
-    margin-top: 7rem;
+    margin-top: 3rem;
     text-align: center;
-    background-color: var(--corCinzaClaro);
-    padding: 5rem;
+    /* padding: 5rem; */
 }
 
 .footer h2{
