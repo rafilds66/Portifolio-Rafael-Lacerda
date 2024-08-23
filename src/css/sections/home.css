@@ -31,6 +31,7 @@
     font-family: var(--fonteSecundaria);
     font-size: var(--fonteGrande);
     margin-bottom: 10px;
+    margin-top: 30px;
 }
 
 .home .text-home h1{

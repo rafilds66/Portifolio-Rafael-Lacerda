@@ -144,3 +144,10 @@
         flex-wrap: nowrap;
     }
 }
+
+@media(max-width: 380px){
+    .header nav input:checked~ul{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

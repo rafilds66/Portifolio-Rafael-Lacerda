@@ -11,7 +11,7 @@ html{
 body{
     font-family: var(--fontePrimaria);
     font-size: var(--fonteNormal);
-    background: url(../img/bg-desktop.svg);
+    background: url(../img/abstract-digital-grid-black-background.jpg) no-repeat;
     background-size: cover;
     background-color: var(--corFundoEscuro);
 }
@@ -106,7 +106,8 @@ body{
 
 @media(max-width: 380px){
     body{
-        background: url(../img/bg-mobile.svg);
+        background: url(../img/abstract-digital-grid-black-background.jpg);
+        background-size: cover;
         background-color: var(--corFundoEscuro);
     }
 }
