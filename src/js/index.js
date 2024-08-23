@@ -1,6 +1,7 @@
 const botoesCarrossel = document.querySelectorAll(".botao")
 const cards = document.querySelectorAll(".card")
-
+const menuHamburguer = document.querySelectorAll("#menu-hamburguer")
+console.log(menuHamburguer)
 
 botoesCarrossel.forEach((botao, indice) =>{
     botao.addEventListener("click",() => {
