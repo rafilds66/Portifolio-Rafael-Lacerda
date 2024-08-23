@@ -78,6 +78,12 @@ body{
     text-transform: uppercase;
 }
 
+@media(max-width: 425px){
+    .section-title h2{
+        margin-top: 20px;
+        padding-top: 30px;
+    }
+}
 .botoes{
     font-size: var(--fonteGrande);
     padding: 10px 20px;
