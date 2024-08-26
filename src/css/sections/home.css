@@ -47,13 +47,3 @@
     letter-spacing: 2px;
     margin-bottom: 30px;
 }
-
-@media(max-width: 1280px){
-    .home .text-home,
-    .home .img-home{
-        flex: 0 0 100%;
-        max-width: 100%;
-        text-align: center;
-        padding: var(--mobilePadding);
-    }
-}

@@ -11,8 +11,6 @@ html{
 body{
     font-family: var(--fontePrimaria);
     font-size: var(--fonteNormal);
-    /* background: url(../img/4903124.jpg) no-repeat;
-    background-size: cover; */
     background-color: var(--corFundoEscuro);
 }
 
@@ -43,6 +41,7 @@ body{
     margin: 0 4px;
     border-radius: 50%;
     transition: all 0.3s ease;
+    color: var(--corBranca);
 }
 
 .social-media i:hover{
@@ -53,14 +52,6 @@ body{
     line-height: 40px;
     font-size: var(--fonteExtraGrande);
 }
-
-/* .outer-shadow{
-    box-shadow: 3px 3px #222327, -3px -3px 3px #454545;
-}
-
-.inner-shadow{
-    box-shadow:  inset 3px 3px 3px #222327, inset -3px -3px 3px #454545;
-} */
 
 .section{
     padding: 3rem 0 3rem;
@@ -79,42 +70,21 @@ body{
     text-transform: uppercase;
 }
 
-@media(max-width: 425px){
-    .section-title h2{
-        margin-top: 20px;
-        padding-top: 30px;
-    }
-}
 .botoes{
     font-size: var(--fonteGrande);
     padding: 10px 20px;
     border-radius: 20px;
     transition: all 0.3s ease;
     background-color: var(--corPrimaria);
+    color: var(--corBranca);
 }
 
 .botoes:hover{
     background-color: var(--corSecundaria);
 }
 
-/* .card{
-    display: none;
-}
-
-.card.card-ativo{
-    display: block;
-} */
-
 .botao{
     border: none;
     text-decoration: none;
     background: transparent;
 }
-
-/* @media(max-width: 380px){
-    body{
-        background: url(../img/3409297.jpg);
-        background-size: cover;
-        background-color: var(--corFundoEscuro);
-    }
-} */
